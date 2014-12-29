@@ -1,0 +1,13 @@
+{
+    "name": "gabrieljmj/cart",
+    "description": "Simple shopping cart system",
+    "require": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gabrieljmj\\Cart\\": "src/Gabrieljmj/Cart/",
+            "Test\\": "tests/"
+        }
+    }
+}
