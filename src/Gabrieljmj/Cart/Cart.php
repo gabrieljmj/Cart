@@ -7,7 +7,6 @@
  * @link    https://github.com/GabrielJMJ/Cart
 */
 
-
 namespace Gabrieljmj\Cart;
 
 use Gabrieljmj\Cart\Product\ProductInterface;
