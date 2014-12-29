@@ -1,4 +1,13 @@
 <?php
+/**
+ * Gabrieljmj\Cart
+ *
+ * @author  Gabriel Jacinto <gamjj74@hotmail.com>
+ * @license MIT License
+ * @link    https://github.com/GabrielJMJ/Cart
+*/
+
+
 namespace Gabrieljmj\Cart;
 
 use Gabrieljmj\Cart\Product\ProductInterface;
@@ -47,7 +56,16 @@ interface CartInterface extends Countable, IteratorAggregate
      *
      * @return integer
     */
-    public function getTotalPrice();
+    public function 
+/**
+ * Gabrieljmj\Cart
+ *
+ * @author  Gabriel Jacinto <gamjj74@hotmail.com>
+ * @license MIT License
+ * @link    https://github.com/GabrielJMJ/Cart
+*/
+
+();
 
     /**
      * Returns total of determined product
