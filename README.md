@@ -64,7 +64,7 @@ $iterator = $cart->getIterator();
 
 while ($iterator->valid()) {
     $curr = $iterator->current();
-    echo '<li><b>Product:</b> $curr->getName() . ' / <b>Total:</b> ' . $cart->getTotalOfAProduct($curr) . '</li>';
+    echo '<li><b>Product:</b>' . $curr->getName() . ' / <b>Total:</b> ' . $cart->getTotalOfAProduct($curr) . '</li>';
     $iterator->next();
 }
 ```
