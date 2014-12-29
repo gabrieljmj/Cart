@@ -1,6 +1,6 @@
 Gabrieljmj\Cart
 ===============
-[![Total Downloads](https://img.shields.io/packagist/dt/gabrieljmj/cart.svg?style=flat-square)](https://packagist.org/packages/gabrieljmj/cart) [![Latest Unstable Version](https://poser.pugx.org/gabrieljmj/cart/v/unstable.png)](https://packagist.org/packages/gabrieljmj/cart) [![License](https://poser.pugx.org/gabrieljmj/cart/license.png)](https://packagist.org/packages/gabrieljmj/cart)
+[![Total Downloads](https://poser.pugx.org/gabrieljmj/cart/downloads.png)](https://packagist.org/packages/gabrieljmj/cart) [![Latest Unstable Version](https://poser.pugx.org/gabrieljmj/cart/v/unstable.png)](https://packagist.org/packages/gabrieljmj/cart) [![License](https://poser.pugx.org/gabrieljmj/cart/license.png)](https://packagist.org/packages/gabrieljmj/cart) [![Build Status](https://scrutinizer-ci.com/g/GabrielJMJ/Cart/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GabrielJMJ/Cart/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GabrielJMJ/Cart/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GabrielJMJ/Cart/?branch=master)
 
 Simple shopping cart system.
 
