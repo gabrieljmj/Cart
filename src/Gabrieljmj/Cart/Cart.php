@@ -49,14 +49,18 @@ class Cart implements CartInterface
         if ($this->has($product)) {
             if ($amount === 0 || $amount > count($this->products[$product])) {
                 unset($this->products[$product]);
-            } else {
-                $id = $product instanceof ProductInterface ? $product->getId(): $product;
-                $cartProduct = $this->products[$id];
-                $cartProduct->remove($amount);
+
+                return;
             }
-        } else {
-            CartException::productNotFoundOnCart($product);
+
+            $id = $product instanceof ProductInterface ? $product->getId(): $product;
+            $cartProduct = $this->products[$id];
+            $cartProduct->remove($amount);
+
+            return;
         }
+        
+        CartException::productNotFoundOnCart($product);
     }
 
     /**
