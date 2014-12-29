@@ -13,8 +13,9 @@ use Gabrieljmj\Cart\Product\ProductInterface;
 
 class CartException extends \Exception
 {
-    public static function productNotFoundOnCart(ProductInterface $product)
+    public static function productNotFoundOnCart($product)
     {
-        throw new CartException('Product not found in this cart: ' . $product->getName());
+        $product = $product instanceof ProductInterface ? $product->getId() : $product;
+        throw new CartException('Product not found in this cart: ' . $product);
     }
 }

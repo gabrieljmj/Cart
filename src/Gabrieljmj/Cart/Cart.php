@@ -41,7 +41,7 @@ class Cart implements CartInterface
     /**
      * Removes a product by id or instance
      *
-     * @param integer $product
+     * @param integer|\Gabrieljmj\Cart\Product\ProductInterface $product
      * @param integer $amount
     */
     public function remove($product, $amount = 0)

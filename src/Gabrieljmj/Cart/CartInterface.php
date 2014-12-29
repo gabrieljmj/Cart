@@ -25,7 +25,7 @@ interface CartInterface extends Countable, IteratorAggregate
     /**
      * Removes a product by id or instance
      *
-     * @param integer $productId
+     * @param integer|\Gabrieljmj\Cart\Product\ProductInterface $productId
      * @param integer $amount
     */
     public function remove($product, $amount = 0);
