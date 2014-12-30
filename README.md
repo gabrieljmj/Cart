@@ -1,6 +1,6 @@
 Gabrieljmj\Cart
 ===============
-[![Total Downloads](https://poser.pugx.org/gabrieljmj/cart/downloads.png)](https://packagist.org/packages/gabrieljmj/cart) [![Latest Unstable Version](https://poser.pugx.org/gabrieljmj/cart/v/unstable.png)](https://packagist.org/packages/gabrieljmj/cart) [![License](https://poser.pugx.org/gabrieljmj/cart/license.png)](https://packagist.org/packages/gabrieljmj/cart) [![Build Status](https://travis-ci.org/GabrielJMJ/Cart.svg?branch=master)](https://travis-ci.org/GabrielJMJ/Cart) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GabrielJMJ/Cart/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GabrielJMJ/Cart/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/gabrieljmj/cart.svg?style=flat)](https://packagist.org/packages/gabrieljmj/cart) [![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--master-orange.svg?style=flat)](https://packagist.org/packages/gabrieljmj/cart) [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://packagist.org/packages/gabrieljmj/cart) [![Build Status](https://travis-ci.org/GabrielJMJ/Cart.svg?branch=master)](https://travis-ci.org/GabrielJMJ/Cart) [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/gabrieljmj/cart.svg?style=flat)](https://scrutinizer-ci.com/g/GabrielJMJ/Cart/?branch=master)
 
 Simple shopping cart system.
 
